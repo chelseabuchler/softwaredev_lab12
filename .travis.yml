@@ -1,0 +1,9 @@
+language: c
+
+install: make dep
+
+sudo: enable
+
+script: make test
+
+compiler: gcc
